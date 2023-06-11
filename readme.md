@@ -1,4 +1,4 @@
-# Hello Forks this is a maze Project 
+# Hello People this is a maze Project 
 
 ------------
 
