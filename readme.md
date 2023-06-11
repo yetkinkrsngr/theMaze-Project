@@ -1,4 +1,4 @@
-# Hello Forks this is a maze Project 
+# Hello People this is a maze Project 
 
 ------------
 
@@ -6,13 +6,13 @@ This project  it is not regular web site about scrooling down is it scrooling le
 
 Project details image is down here 
 
-![](assets/project-images/a.png)
+![a](https://github.com/yetkinkrsngr/theMaze-Project/assets/25861632/b9346046-569e-4bd9-8a33-438ac983b181)
 
 ------------
 
-![](assets/project-images/b.png)
+![b](https://github.com/yetkinkrsngr/theMaze-Project/assets/25861632/cbacc676-7bc7-48b1-966b-7c33ad4c7134)
 
 ------------
-![](assets/project-images/c.png)
+![c](https://github.com/yetkinkrsngr/theMaze-Project/assets/25861632/782886e4-5e2e-4b88-bf2b-d6fbad80be9f)
 
 ------------
