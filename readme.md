@@ -6,7 +6,7 @@ This project  it is not regular web site about scrooling down is it scrooling le
 
 Project details image is down here 
 
-![](assets/project-images/a.png)
+![a](https://github.com/yetkinkrsngr/theMaze-Project/assets/25861632/b9346046-569e-4bd9-8a33-438ac983b181)
 
 ------------
 
