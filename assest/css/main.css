@@ -5,9 +5,13 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-/* body::-webkit-scrollbar{
+ body::-webkit-scrollbar{
     display: none;
-} */
+} 
+#first-article,#two,#there,#four,#five,#six,#seven{
+transition: background 0.3s linear;
+-webkit-transition-duration: .2s;
+}
 h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
@@ -89,7 +93,6 @@ section{
 .article-section{
     width: 800px;
     height: 100vh;
-    border: 1px solid red;
 }
 .article-section-first{
     background-image: url("../img/article-first-img.jpg");
@@ -331,7 +334,6 @@ margin-top: -15px;
 }
 .article-section-debug{
     width: 800px;
-    border: 1px solid red;
     height: 91.5vh;
 }
 .article-fi{
@@ -377,8 +379,6 @@ margin-top: -15px;
     font-size: 14px;
     line-height:25px;
     opacity: .6;
-    
-    
 }
 .m-t{
     margin-top: 50px;
@@ -413,4 +413,50 @@ figcaption img{
 
 .gray-bg{
 background-color: #E5E5E5;
+}
+.addres ,.location{
+    display: flex;
+}
+.addres , .fix-hr{
+    margin-top: 35px;
+}
+.left-adress{
+    width: 300px;
+}
+.right-adress{
+width: 60%;
+padding: 0 20px 20px 20px;
+text-align: center;
+}
+.icon-adress{
+
+    padding: 20px;
+}
+.icon-adress i{
+    margin-top: 15px;
+}
+.adress-detail h2{
+    font-size: 18px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.adress-detail a{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    display: inline-block;
+}
+.right-side-icon{
+    padding: 15px;
+
+}
+.right-side-icon a{
+    display: inline-block;
+    margin-left:12%;
+    margin-top: 25px;
+}
+.map{
+
+    text-align: center;
+    margin-top: 15px;
 }
