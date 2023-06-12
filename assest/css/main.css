@@ -13,6 +13,10 @@ hr{
     opacity: .4;
     z-index: 2;
 }
+.break{
+    font-size: 184px;
+    margin-top: -15px;
+}
 :root{
 --secondy-color:#ffb400;
 }
@@ -326,4 +330,51 @@ margin-top: -15px;
     width: 800px;
     border: 1px solid red;
     height: 91.5vh;
+}
+.article-fi{
+    overflow: scroll;
+    padding: 40px;
+}
+.article-fi::-webkit-scrollbar{
+    width: 5px;
+}
+.fi-info h1{
+    font-size: 36px;
+    margin-bottom: -10px;
+}
+.fi-info h2{
+    font-size: 16px;
+}
+.fi-info p{
+    width: 90%;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.icon-side ,.details-box{
+    display: flex;
+    margin-top: 30px;
+}
+.icon{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.icon-text{
+    margin-left: 15px;
+
+}
+.icon-text h1 ,.icon-text h2{
+    font-size: 16px;
+    margin-top: -5px;
+}
+.info-side{
+    width: 40%;
+    margin-left: 150px;
+    font-size: 14px;
+    line-height:25px;
+    opacity: .6;
+    
+}
+.m-t{
+    margin-top: 50px;
 }
