@@ -14,8 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assest/css/main-mobile.css" media="only screen and (max-width:429px)">
-    <link rel="stylesheet" href="assest/css/main.css" media="only screen and (min-width:430px)" />
+    <link rel="stylesheet" href="assest/css/main-mobile.css" media="only screen and (max-width:451px)">
+    <link rel="stylesheet" href="assest/css/main.css" media="only screen and (min-width:450px)" />
 
     <script src="https://kit.fontawesome.com/7852e4b612.js" crossorigin="anonymous"></script>
   </head>
@@ -25,9 +25,12 @@
         <div class="navbar">
           <div class="logo">
             <a href="#"><img src="assest/img/logo.png" alt="" /></a>
+            <span class="logo-span">Andrew Smith</span>
+            <i class="fa-solid fa-bars 2 fa-2xl" id="ham-menu" style="color: #ffffff;" onclick="myFunction()"></i>
           </div>
-          <div class="nav-link">
-            <ul class="nav-link-ul">
+          <div class="nav-link ">
+           
+            <ul class="nav-link-ul " id="myLinks">
               <li class="nav-link-li"><a href="#first-article">HOME</a></li>
               <li class="nav-link-li"><a href="#two" id="about">ABOUT</a></li>
               <li class="nav-link-li"><a href="#there">SKILLS</a></li>
@@ -78,7 +81,7 @@
         <article class="article-section article-section-second" id="two">
           <div class="article-second-info">
             <div class="article-second-header">
-              <h1>About</h1>
+              <h1 class="about-mobile">About</h1>
               <div class="title-divider"></div>
             </div>
             <div class="article-second-text">
@@ -154,7 +157,64 @@
                   <div class="persent persent-40">40%</div></div>
               </div>
             </div>
-
+            <div class="mobil-only">
+              <div class="mobil-only-header">
+                <h1>KNOWLENGE</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum dolorem eveniet! Earum nesciunt adipisci, dolorum quo minus obcaecati, explicabo similique ex placeat tempore deleniti aliquam qui nihil. Numquam nemo iste ducimus commodi reprehenderit saepe, corporis nisi sit repellat eveniet!</p>
+              </div>
+              <div class="mobil-only-skills">
+                <ul>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Google Analythics & SEO</p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Instal and Configure</p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p>E-commerce Platform</p>
+                  </li>
+                  <li class="mobil-only-li mb-10">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Color theory knowledge</p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li mb-10">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                  <li class="mobil-only-li">
+                    <i class="fa-solid fa-check"></i>
+                    <p></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <hr>
           <div class="article-third-info">
@@ -448,5 +508,6 @@
         </article>
       </section>
     </main>
+    <script src="js/mobile-app.js"></script>
   </body>
 </html>

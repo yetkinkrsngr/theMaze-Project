@@ -9,8 +9,8 @@ body{
     display: none;
 } 
 #first-article,#two,#there,#four,#five,#six,#seven{
-transition: background 0.3s linear;
--webkit-transition-duration: .2s;
+scroll-behavior: smooth;
+
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 400;
@@ -39,8 +39,14 @@ nav{
     height: 100vh;  
     z-index: 1; 
 }
+#ham-menu{
+    display: none;
+}
 .logo{
     padding: 30px;
+}
+.logo-span{
+    display: none;
 }
 .nav-link-li{
     margin-top: 20px;
@@ -123,6 +129,10 @@ section{
     background-image: url("../img/article-second-bg.png");
     background-size: fill;
     background-repeat: no-repeat;
+    overflow: scroll;
+}
+.article-section-second::-webkit-scrollbar{
+    overflow: hidden;
 }
 .article-second-info{
     padding:40px 20px;
@@ -459,4 +469,7 @@ text-align: center;
 
     text-align: center;
     margin-top: 15px;
+}
+.mobil-only{
+    display: none;
 }
