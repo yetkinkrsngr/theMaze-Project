@@ -68,7 +68,6 @@ color: #fff;
     display: none;
 }
 .article-section{
-    border: 1px solid brown;
     display: grid;
     grid-template-columns: auto;
 }
@@ -241,11 +240,122 @@ color: #fff;
 }
 .article-fo-sub-section:hover .iconic{
     color: black;
-    display: inline-block;
-    width: 128px;
+    transform: scale(1.5,1.5);
 }
 .article-fo-icon i{
 font-size: 64px;
 padding: 20px;
 margin-top: 25px;
+}
+.gray-bg{
+    background-color: rgb(244, 248, 251);
+}
+.article-section-debug{
+    padding: 40px;
+}
+.fi-info , m-t{
+    margin-bottom: 25px;
+}
+.details-box{
+    text-align: center;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.details-box:hover .iconic{
+    color: black;
+    transform: scale(1.5,1.5);
+}
+.details-box hr ,.m-t{
+    display: none;
+}
+.fi-info-details ,details-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-text h2,.icon-text-mobile-header{
+    margin-top: -15px;
+}
+.article-fi{
+    padding: 40px;
+}
+.img-mobil{
+    width:130%;
+    height: 130%;
+    margin-left: -35px;
+    z-index: 0;
+
+}
+.images-side{
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 300px;
+    bottom:4px;
+    right: 4px;    
+    background-color: #ffb400;
+    display: none;
+}
+figcaption img{
+    margin-top: 45px;
+    width: 35px;
+    height: 35px;
+    
+}
+figcaption h3{
+    font-weight: bolder;
+}
+.images-side:hover figcaption{
+    width: 97%;
+    height: 98%;
+    display: block;
+    transition-duration: 3s, 1s;
+    transition-delay: 500ms;
+}
+.fix-hr{
+    margin: 40px;
+}
+.location{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.icon-adress{
+    margin-top: 35px;
+    padding-left: -10px;
+}
+.adress-detail{
+    margin-left: 20px;
+}
+.adress-detail p{
+    margin-top: -25px;
+}
+.adress-detail a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#mobile-debug{
+    margin-bottom: -5px;
+}
+.right-adress{
+margin: 40px;
+text-align: center;
+}
+.right-side-info{
+    margin-top: 40px;
+}
+.right-side-icon{
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    display: none;
+
 }
