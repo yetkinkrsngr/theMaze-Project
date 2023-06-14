@@ -76,11 +76,13 @@ color: #fff;
     background-image: url("../img/article-first-img.jpg");
     background-size:cover;
     height: 60vh;
+    position: relative;
 }
 .header-text{
     width: 70%;
     height: 60%;
-    margin-top: 164px;
+    position: absolute;
+    bottom: 0;
     background-color: hsla(0, 11%, 36%, 0.6);
 }
 .header-text h1{
@@ -165,24 +167,36 @@ color: #fff;
 
 .persent-70{
     width: 70%;
-    background-color: rgb(217, 167, 167);
+    background-color: 	hsla(42, 100%, 50%,.6);
     border-radius: 25px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
 }
 .persent-88{
     width: 88%;
-    background-color: rgb(217, 167, 167);
+    background-color: hsla(42, 100%, 50%,.6);
     border-radius: 25px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
 }
 .persent-90{
     width: 90%;
-    background-color: rgb(217, 167, 167);
+    background-color: hsla(42, 100%, 50%,.6);
     border-radius: 25px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
 }
 .persent-40{
     width: 40%;
-    background-color: rgb(217, 167, 167);
+    background-color: hsla(42, 100%, 50%,.6);
     border-radius: 25px;
     margin-bottom: 15px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
 }
 .title-divider-lang{
     width: 60px;
@@ -190,6 +204,10 @@ color: #fff;
     background-color: #ffb400;
     margin-top: -10px;
     margin-bottom: 30px;
+}
+.mobil-only{
+    border-top:1px solid hsla(0, 11%, 36%, 0.4);
+    margin-top: 30px;
 }
 .mobil-only-skills ul{
     list-style: none;
@@ -202,5 +220,32 @@ color: #fff;
     margin-left: 10px;
 }
 .mb-10{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.article-section-four{
+    padding: 40px;
+}
+.article-section-four hr{
+    display: none;
+}
+.article-fo-sub-section{
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.iconic{
+    color: #ffb400;
+    width: 55px;
+}
+.article-fo-sub-section:hover .iconic{
+    color: black;
+    display: inline-block;
+    width: 128px;
+}
+.article-fo-icon i{
+font-size: 64px;
+padding: 20px;
+margin-top: 25px;
 }

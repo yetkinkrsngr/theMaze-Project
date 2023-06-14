@@ -330,9 +330,9 @@ font-size: 32px;
     font-size: 15px;
 }
 .iconic{
-    margin-top: 50px;
-    font-size:px;
-    
+        color: #ffb400;
+        width: 55px;
+         margin-top: 50px;
 }
 .article-fo-info-h1,.article-fo-info-h2{
 margin-top: -15px;
